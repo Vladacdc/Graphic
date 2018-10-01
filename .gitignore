@@ -16,3 +16,5 @@ Graphic1/.vs/Graphic1/v15/.suo
 *.exe
 *.cache
 *.cache
+*.exe
+*.pdb
