@@ -10,3 +10,9 @@ Graphic1/Graphic1/obj/Debug/Graphic1.exe
 Graphic1/Graphic1/obj/Debug/Graphic1.pdb
 Graphic1/.vs/Graphic1/v15/.suo
 Graphic1/.vs/Graphic1/v15/Server/sqlite3/storage.ide-shm
+Graphic1/.vs/Graphic1/v15/.suo
+*.ide-shm
+*.pdb
+*.exe
+*.cache
+*.cache
