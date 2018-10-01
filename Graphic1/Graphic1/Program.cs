@@ -23,6 +23,7 @@ namespace Graphic1
             catch
             {
                 MessageBox.Show("Error!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+                Application.Exit();
             }
         }
     }
