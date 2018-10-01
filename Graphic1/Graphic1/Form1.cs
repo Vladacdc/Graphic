@@ -113,6 +113,7 @@ namespace Graphic1
             button3.Enabled = true;
             trackBar1.Enabled = false;
             textBox5.Enabled = false;
+            button1.Enabled = false;
             backgroundWorker1.RunWorkerAsync(trackBar1.Value);                    
         }
 
@@ -244,6 +245,7 @@ namespace Graphic1
             button3.Enabled = false;
             trackBar1.Enabled = true;
             textBox5.Enabled = true;
+            button1.Enabled = true;
         }
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
