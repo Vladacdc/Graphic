@@ -56,17 +56,17 @@ namespace Graphic1
         public static explicit operator Point3D(string str)
         {
             string[] temp = str.Split(',');
-            if 
-                (temp.Length != 3) throw new ArgumentException();
+            if(temp.Length != 3)
+                throw new ArgumentException();
             else
                 return new Point3D((float)Convert.ToDouble(temp[0]), (float)Convert.ToDouble(temp[1]), (float)Convert.ToDouble(temp[2]));
         }
-       
+
         public bool Equals(Point3D obj)
         {
             return this.X == obj.X && this.Y == obj.Y && this.Z == obj.Z && this.W == obj.W;
         }
 
-        
+
     }
 }
