@@ -8,3 +8,13 @@ C:\Users\Vlad Acdc\source\repos\Graphic1\Graphic1\obj\Debug\Graphic1.csproj.Gene
 C:\Users\Vlad Acdc\source\repos\Graphic1\Graphic1\obj\Debug\Graphic1.csproj.CoreCompileInputs.cache
 C:\Users\Vlad Acdc\source\repos\Graphic1\Graphic1\obj\Debug\Graphic1.exe
 C:\Users\Vlad Acdc\source\repos\Graphic1\Graphic1\obj\Debug\Graphic1.pdb
+D:\Programms\Git\Graphic\Graphic1\Graphic1\bin\Debug\Graphic1.exe.config
+D:\Programms\Git\Graphic\Graphic1\Graphic1\bin\Debug\Graphic1.exe
+D:\Programms\Git\Graphic\Graphic1\Graphic1\bin\Debug\Graphic1.pdb
+D:\Programms\Git\Graphic\Graphic1\Graphic1\obj\Debug\Graphic1.csprojAssemblyReference.cache
+D:\Programms\Git\Graphic\Graphic1\Graphic1\obj\Debug\Graphic1.Form1.resources
+D:\Programms\Git\Graphic\Graphic1\Graphic1\obj\Debug\Graphic1.Properties.Resources.resources
+D:\Programms\Git\Graphic\Graphic1\Graphic1\obj\Debug\Graphic1.csproj.GenerateResource.cache
+D:\Programms\Git\Graphic\Graphic1\Graphic1\obj\Debug\Graphic1.csproj.CoreCompileInputs.cache
+D:\Programms\Git\Graphic\Graphic1\Graphic1\obj\Debug\Graphic1.exe
+D:\Programms\Git\Graphic\Graphic1\Graphic1\obj\Debug\Graphic1.pdb
