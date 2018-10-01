@@ -86,7 +86,9 @@ namespace Graphic1
             pen.DashStyle = DashStyle.Solid;
             #endregion
 
+
             Cube.Draw(cube, graphics, pen, mover);
+
 
         }
 

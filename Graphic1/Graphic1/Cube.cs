@@ -45,7 +45,7 @@
             ArrF = new Point3D[4];
             ArrB = new Point3D[4];
 
-            for (int i=0; i<4;i++)
+            for (int i = 0; i < 4; i++)
             {
                 ArrF[i] = a.ArrF[i];
                 ArrB[i] = a.ArrB[i];
@@ -53,15 +53,15 @@
             Size = a.Size;
         }
 
-        public static void Draw(Cube cube, Graphics g, Pen pen, Point3D vector=null)
+        public static void Draw(Cube cube, Graphics g, Pen pen, Point3D vector = null)
         {
             Cube temp = new Cube(cube);
             temp = Isometric(temp);
-            if (vector!=null)
+            if (vector != null)
             {
                 temp = Cube.MoveOnVector(temp, vector.X, vector.Y, vector.Z);
             }
-                      
+
             for (int i = 1; i < cube.ArrF.Length; i++)
             {
                 pen.Color = Color.Red;
@@ -77,7 +77,7 @@
             pen.Color = Color.Blue;
             g.DrawLine(pen, (PointF)temp.ArrB[0], (PointF)temp.ArrB[3]);
             pen.Color = Color.Green;
-            g.DrawLine(pen, (PointF)temp.ArrF[3], (PointF)temp.ArrB[3]);            
+            g.DrawLine(pen, (PointF)temp.ArrF[3], (PointF)temp.ArrB[3]);
 
         }
 
@@ -130,7 +130,7 @@
             Cube temp = new Cube(cube);
             //temp = MoveOnVector(temp, -temp.ArrF[0].X, -temp.ArrF[0].Y, -temp.ArrF[0].Z);
             temp = AngleY(temp, (float)120 * 180 / (float)Math.PI);
-            temp = AngleX(temp, (float)135 * 180 / (float)Math.PI);                       
+            temp = AngleX(temp, (float)135 * 180 / (float)Math.PI);
             //temp = MoveOnVector(temp, cube.ArrF[0].X, temp.ArrF[0].Y, temp.ArrF[0].Z);
             return temp;
         }
